@@ -1,0 +1,42 @@
+{
+  "inputDir": "sample",
+  "outputDir": "out",
+  "platforms": {
+    "xiaohongshu": {
+      "label": "小红书",
+      "columns": {
+        "title": "笔记标题",
+        "date": "发布时间",
+        "views": "曝光量",
+        "likes": "点赞",
+        "comments": "评论",
+        "collects": "收藏",
+        "shares": "分享"
+      }
+    },
+    "wechat": {
+      "label": "公众号",
+      "columns": {
+        "title": "标题",
+        "date": "发表时间",
+        "views": "阅读量",
+        "likes": "点赞",
+        "comments": "留言",
+        "collects": "在看",
+        "shares": "转发"
+      }
+    },
+    "douyin": {
+      "label": "抖音",
+      "columns": {
+        "title": "作品标题",
+        "date": "发布时间",
+        "views": "播放量",
+        "likes": "点赞量",
+        "comments": "评论量",
+        "collects": "收藏量",
+        "shares": "分享量"
+      }
+    }
+  }
+}

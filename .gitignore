@@ -1,0 +1,10 @@
+node_modules/
+package-lock.json
+cover-batch/output/
+batch-media/input/
+batch-media/output/
+.DS_Store
+
+# 运行产物
+title-batch/out/
+content-review/out/

@@ -1,0 +1,42 @@
+[
+  {
+    "title": "一条视频\n三个平台版本",
+    "subtitle": "尺寸、封面、文案全部自动生成",
+    "badge": "自动化 01"
+  },
+  {
+    "title": "别再手动\n改视频尺寸了",
+    "subtitle": "FFmpeg 批量处理，一次跑完",
+    "badge": "自动化 02"
+  },
+  {
+    "title": "20 张封面\n十分钟做完",
+    "subtitle": "模板 + JSON + 一段脚本",
+    "badge": "自动化 03"
+  },
+  {
+    "title": "一次 429\n不该毁掉整批任务",
+    "subtitle": "超时、退避、校验、成本日志",
+    "badge": "开发者 01"
+  },
+  {
+    "title": "14 条内容\n一张周报",
+    "subtitle": "CSV 自动汇总，异常自己冒出来",
+    "badge": "自动化 04"
+  },
+  {
+    "title": "30 条标题\n一次生成",
+    "subtitle": "模板、词库、过滤，全部本地跑",
+    "badge": "自动化 05"
+  },
+  {
+    "title": "从 0 开始\n先跑起来",
+    "subtitle": "装 Node，跑通第一个整理脚本",
+    "badge": "入门 01"
+  },
+  {
+    "title": "CSV 乱码\n先看 BOM",
+    "subtitle": "UTF-8、GBK、BOM 一次分清",
+    "badge": "入门 02"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "genwozuo-scripts",
+  "version": "1.0.0",
+  "description": "跟做教程配套的可运行脚本",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "smoke": "node test/smoke.mjs"
+  },
+  "optionalDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "sharp": "^0.35.5"
+  },
+  "license": "MIT"
+}
