@@ -6,7 +6,11 @@ import path from "node:path";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const run = (script, args, cwd = ROOT) =>
-  execFileSync(process.execPath, [path.join(ROOT, script), ...args], { cwd, encoding: "utf8" });
+  execFileSync(process.execPath, [path.join(ROOT, script), ...args], {
+    cwd,
+    encoding: "utf8",
+    stdio: ["ignore", "pipe", "pipe"],
+  });
 
 let passed = 0;
 let skipped = 0;
