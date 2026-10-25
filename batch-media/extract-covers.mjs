@@ -61,7 +61,8 @@ export async function extractCovers({
 }
 
 async function main() {
-  const input = path.resolve(ROOT, process.argv[2] ?? "input/demo.mp4");
+  const arg = process.argv[2];
+  const input = arg ? path.resolve(process.cwd(), arg) : path.join(ROOT, "input/demo.mp4");
   const outputs = await extractCovers({ input, outputDir: path.join(ROOT, "output") });
 
   for (const output of outputs) console.log(`done: ${output}`);

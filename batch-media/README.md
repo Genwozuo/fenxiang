@@ -8,6 +8,7 @@ node batch-media/convert.mjs ./input/demo.mp4
 node batch-media/extract-covers.mjs ./input/demo.mp4
 ```
 
+- 路径可以是相对当前目录，也可以是绝对路径；不给参数时默认读 `batch-media/input/demo.mp4`。
 - 尺寸配置在 `copy.json`
 - 输出到 `batch-media/output/`
 - 找不到 ffmpeg 时先读 `tools.mjs` 里的 `resolveFfmpeg`，它支持 `FFMPEG_PATH` 环境变量
