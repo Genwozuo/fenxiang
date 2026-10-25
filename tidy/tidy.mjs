@@ -109,12 +109,6 @@ const isDirectRun =
 
 if (isDirectRun) {
   const args = process.argv.slice(2);
-  if (args.includes("--help") || args.includes("-h")) {
-    console.log("用法：node tidy/tidy.mjs <文件夹> [--move]");
-    console.log("  <文件夹>  要整理的目录（默认：待整理）");
-    console.log("  --move    真的移动文件（默认只预览）");
-    process.exit(0);
-  }
   const move = args.includes("--move");
   const dir = args.find((arg) => !arg.startsWith("--")) ?? "待整理";
 

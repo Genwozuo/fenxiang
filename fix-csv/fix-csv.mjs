@@ -169,13 +169,6 @@ const isDirectRun =
 
 if (isDirectRun) {
   const args = process.argv.slice(2);
-  if (args.includes("--help") || args.includes("-h")) {
-    console.log("用法：node fix-csv.mjs <文件或目录> [--write] [--no-bom]");
-    console.log("  <文件或目录>  要转换的 CSV（默认只预览）");
-    console.log("  --write       真的写入文件");
-    console.log("  --no-bom      不写 UTF-8 BOM");
-    process.exit(0);
-  }
   const write = args.includes("--write");
   const bom = !args.includes("--no-bom");
   const target = args.find((arg) => !arg.startsWith("--"));

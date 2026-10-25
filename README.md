@@ -13,9 +13,11 @@ git clone https://github.com/Genwozuo/fenxiang.git
 cd scripts
 
 # 不需要装任何依赖
-node tidy/tidy.mjs --help
-node fix-csv/fix-csv.mjs --help
+node tidy/tidy.mjs ~/Downloads          # 只预览，不动文件
+node fix-csv/fix-csv.mjs data.csv       # 只预览，不动文件
 ```
+
+真的执行要显式加参数：`tidy` 用 `--move`，`fix-csv` 用 `--write`（可再加 `--no-bom`）。
 
 `cover-batch` 和 `batch-media` 需要额外依赖：`npm install`。
 
