@@ -9,7 +9,7 @@
 需要 Node 22 或更高版本。
 
 ```bash
-git clone https://github.com/genwozuo/scripts.git
+git clone https://github.com/Genwozuo/fenxiang.git
 cd scripts
 
 # 不需要装任何依赖
