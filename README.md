@@ -30,6 +30,7 @@ node fix-csv/fix-csv.mjs --help
 | `title-batch/` | 模板 + 词库批量生成标题并过滤 | 30 条标题一次生成 | 无 |
 | `cover-batch/` | 用 SVG 模板批量生成封面图 | 20 张封面十分钟做完 | `sharp` |
 | `batch-media/` | 一条视频转成三平台尺寸，按时间点抽封面 | 一条视频三个平台版本 | `@ffmpeg-installer/ffmpeg` |
+| `check-media/` | 检查 ffmpeg / ffprobe 是否在 PATH，按系统给修复顺序 | ffmpeg 提示「不是内部或外部命令」 | 无 |
 
 ## 默认不动你的文件
 
